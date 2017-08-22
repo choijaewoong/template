@@ -1,0 +1,8 @@
+html, body {
+    width: 100%;
+}
+body {
+    font-family:"Apple SD Gothic Neo", HelveticaNeue, sans-serif;
+    font-size:12px;
+    color:#000;
+}
