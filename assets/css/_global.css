@@ -3,7 +3,8 @@ html, body {
     height: 100%;
 }
 body {
-    font-family:"Apple SD Gothic Neo", HelveticaNeue, sans-serif;
+    font-family: "Apple SD Gothic Neo", "Malgun Gothic", "맑은 고딕", dotum, '돋움', HelveticaNeue, sans-serif;
+    /* font-family:"Apple SD Gothic Neo", HelveticaNeue, sans-serif; */
     font-size:12px;
     color:#000;
 }
