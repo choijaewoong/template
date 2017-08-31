@@ -1,0 +1,38 @@
+@media only screen and (max-width : 1080px) { 
+    
+    .header-tit {
+        width: 100%;
+    }    
+    .lnb {
+        opacity: 0;
+        left: -280px;
+    }
+    .lnb.on {
+        opacity: 1;
+        left: 0;
+    }
+    .contents {
+        margin-left: 0;
+    }
+    .footer {
+        margin-left: 0;
+    }
+    .btn-lnb-wrap {
+        opacity: 1;
+        visibility: visible;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    
+    .btn-menu {
+        opacity: 1;
+        visibility: visible;
+    }
+    .btn-menu:before {
+        top: 4px;
+    }
+    .btn-menu:after {
+        top: 20px;
+    }
+}

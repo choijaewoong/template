@@ -5,26 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Template</title>
-    <link rel="stylesheet" href="../assets/css/_reset.css">
-    <link rel="stylesheet" href="../assets/css/_global.css">
-    <link rel="stylesheet" href="../assets/css/layout.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
     <div class="header">
         <h1 class="header-tit">Template</h1>
+        <!-- <ul class="header-menu">
+            <li class="menu-item">Home</li>
+            <li class="menu-item">About</li>
+            <li class="menu-item">Guest</li>
+            <li class="menu-item">Admin</li>
+        </ul> -->
+
         <div class="header-info">
 
         </div>
         <div class="lnb">
             <ul class="lnb-menu">
-                <li class="menu-item">First</li>
-                <li class="menu-item">Second</li>
-                <li class="menu-item">Third</li>
-                <li class="menu-item">Fourth</li>
+                <li class="menu-item"><a href="#" class="link">First</a></li>
+                <li class="menu-item"><a href="#" class="link">Second</a></li>
+                <li class="menu-item"><a href="#" class="link">Third</a></li>
+                <li class="menu-item"><a href="#" class="link">Fourth</a></li>
             </ul>
         </div>
-        <div class="btn-lnb-wrap">
-            <a href="#" class="btn-lnb"><span class="icon-menu sp"></span></a>
+        <div class="btn-menu-lnb">
+            <a href="#" id="btnLnbMenu" class="btn-menu">
+                <span class="middle-bar"></span>
+            </a>
+        </div>
+        <div class="btn-user-lnb">
+            <a href="#" id="btnLnbUser" class="btn">
+                <span class="icon-user sp"></span>
+            </a>
         </div>
     </div>    
     <div class="container">
@@ -43,5 +55,9 @@
     <div class="footer">
 
     </div>
+    <script src="../assets/js/style.js"></script>
+    <script>
+        app.toggleLnbMenu();
+    </script>
 </body>
 </html>
