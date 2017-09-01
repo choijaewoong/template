@@ -1,28 +1,30 @@
 @media only screen and (max-width : 1080px) { 
     
+    .header {
+        height: 90px;
+    }
     .header-tit {
         width: 100%;
+        padding: 0 44px;
     }    
     .lnb {
-        opacity: 0;
+        top: 90px;
         left: -280px;
+        opacity: 0;
     }
     .lnb.on {
         opacity: 1;
         left: 0;
+    }
+    .container {
+        margin-top: -45px;
+        padding-top: 135px;
     }
     .contents {
         margin-left: 0;
     }
     .footer {
         margin-left: 0;
-    }
-    .btn-lnb-wrap {
-        opacity: 1;
-        visibility: visible;
-        -ms-transform: rotate(0);
-        -webkit-transform: rotate(0);
-        transform: rotate(0);
     }
     
     .btn-menu {
@@ -34,5 +36,10 @@
     }
     .btn-menu:after {
         top: 20px;
+    }
+
+    .header-menu {
+        width: 100%;
+        overflow: hidden;
     }
 }
