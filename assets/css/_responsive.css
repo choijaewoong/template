@@ -17,11 +17,8 @@
         left: 0;
     }
     .container {
-        margin-top: -45px;
-        padding-top: 135px;
-    }
-    .contents {
         margin-left: 0;
+        padding-top: 135px;
     }
     .footer {
         margin-left: 0;

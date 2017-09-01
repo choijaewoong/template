@@ -1,0 +1,18 @@
+.contents { 
+    padding: 20px 40px;
+    -webkit-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+}
+
+.contents-tit {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #E59A13;
+    border-bottom: 1px solid #eee;
+}
+.contents-tit .tit-sub {
+    color: #333;    
+    font-size: 14px;
+    font-weight: normal;
+}
