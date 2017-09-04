@@ -7,5 +7,6 @@
 @import url(./_contents.css);
 @import url(./_module/_btn.css);
 @import url(./_module/_link.css);
+@import url(./_module/_card.css);
 @import url(./layout.css);
 @import url(./_responsive.css);

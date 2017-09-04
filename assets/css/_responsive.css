@@ -1,5 +1,7 @@
 @media only screen and (max-width : 1080px) { 
-    
+    .contents {
+        padding: 15px;
+    }
     .header {
         height: 90px;
     }
