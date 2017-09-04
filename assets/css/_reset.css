@@ -71,7 +71,13 @@ textarea {
     line-height: 1.15;
     margin: 0;
 }
-button,
+button {
+    outline: 0;
+    background: none;
+    border: 0;
+    overflow: visible;
+    cursor: pointer;
+}
 input {
     overflow: visible;
 }
